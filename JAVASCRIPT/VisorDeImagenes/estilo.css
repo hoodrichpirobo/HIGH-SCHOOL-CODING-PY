@@ -1,0 +1,43 @@
+
+#contenedor{
+    width:1000px;
+    min-height: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #CCC;
+}
+#visor{
+    padding:30px;
+}
+#imagenvisor{
+    width:600px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #333;
+}
+#contenidovisor{
+    padding:30px;
+    width:600px;
+    text-align:center;
+    border-radius: 10px;
+    
+}
+#contenedor table{
+    width:100%;
+}
+#contenedor td{
+    width:20%;
+    text-align: center;
+    padding:5px;
+    background-color: white;
+   
+}
+#contenedor td img{
+    width:100px;
+    text-align: center;
+    
+}
+#contenedor td img:hover{
+    transform: scale(1.1, 1.1) rotate(-3deg);
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #333;
+}

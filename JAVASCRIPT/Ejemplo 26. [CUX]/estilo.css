@@ -1,0 +1,63 @@
+Body{
+    background-color: antiquewhite;
+    font-size: 40px;
+}
+#Contenedor{
+    border: 2px solid red;
+    width: 1000px;
+    background-color: rosybrown;
+    margin: auto;
+       box-shadow: -10px 5px 5px black;
+}
+#Menu{
+    border: 2px solid red;
+    width: 1000px;
+    background-color: rosybrown;
+    margin: auto;
+    color: black;
+}
+#Col_1{
+    border: 2px solid blue;
+    width: 32.6%;
+    margin: 2px;
+    font-size: 25px;
+    float: left;
+    color: yellow
+}
+#Col_1 img{
+    float: left;
+} 
+#Col_2{
+    border: 2px solid blue;
+    width: 32.6%;
+    margin: auto;
+       font-size: 25px;
+    float: left;
+    color: blue;
+}
+#Col_3{
+    border: 2px solid yellow;
+    width: 32.6%;
+    margin: 2px;
+    float: left;
+    color: red;
+}
+#pie{
+    border: 2px solid yellow;
+    clear:both;
+    color: black;
+}
+span.parse{
+    font-style: italic;
+}
+a.Izquierdas:hover {
+    font-style: italic;
+        color: rebeccapurple;
+}
+a.Derechas:hover {
+    font-style: italic;
+        color: yellow;
+}
+span.nea{
+    font-weight: bold;
+}
